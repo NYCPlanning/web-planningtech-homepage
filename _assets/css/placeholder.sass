@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Work+Sans&display=swap')
+
+$font-size: min(3vh, 4vw)
+$font-family: 'Anonymous Pro', monospace, 'Work Sans', sans-serif
+$background: #ffffff
+$tablet-width: 768px
+$desktop-width: 1024px
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, fieldset, form, label, legend, textarea, table, caption, tbody, tfoot, thead, tr, th, td
+   margin: 0
+   padding: 0
+   border: 0
+   font-weight: inherit
+   font-style: inherit
+   font-size: 100%
+   font-family: inherit
+   vertical-align: baseline
+   line-height: 1.1rem
+   z-index: auto
+
+html
+   font-size: $font-size
+   overflow: auto
+   height: 100%
+
+
+   &::-webkit-scrollbar
+      width: 0 !important
+      -ms-overflow-style: none
+      scrollbar-width: none
+
+body
+   margin: 0px
+   font-family: $font-family
+   background-color: $background
+   
+header
+   // display: contents
+   // overflow: hidden
+   height: 10vh
+   .logo
+      height: auto
+      width: min(20vw, 20vh)
+      margin: 5vh 0 0 5vw
+
+h1
+   font-family: 'Work Sans', sans-serif
+   font-weight: 600
+   font-size: 2.75rem
+   line-height: 3rem
+   margin-top: 15vh
+   margin-bottom: 4vh
+
+p, .p
+   margin-bottom: 4vh
+
+.container
+   background-image: url('../images/wire_skyline.png')
+   // background-image: url('../images/wire_skyline.svg')
+   // background-position-x: -250px
+   height: 90vh
+   width: 100%
+   background-size: cover
+   background-repeat: no-repeat
+   overflow: hidden
+
+.main-section
+   text-align: center
+   margin: 5vh max(5vw, 10px) 
+
+.combined-logo
+   width: max(20vw, 30vh)
+
+.center
+   display: table
+   margin: auto
+   
+
+
+   
